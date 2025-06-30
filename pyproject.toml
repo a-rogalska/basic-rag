@@ -1,0 +1,20 @@
+[project]
+name = "basic-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "chromadb==1.0.12",
+    "docling==2.36.1",
+    "huggingface-hub==0.32.4",
+    "langchain>=0.3.25",
+    "langchain-chroma>=0.2.4",
+    "langchain-openai>=0.3.19",
+    "langchain-tavily>=0.2.5",
+    "langgraph>=0.4.8",
+    "protobuf==3.20.*",
+    "streamlit==1.45.1",
+    "torch==2.7.0",
+    "transformers==4.52.4",
+]
