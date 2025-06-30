@@ -1,5 +1,5 @@
 # Basic RAG
-This is a simple agentic Retrieval-Augmented Generation (RAG) system that can be used as a template for the projects. It is built in LangChain and LangGraph with Chroma and OpenAI support. The user interface is developed in Streamlit.
+This is a simple agentic Retrieval-Augmented Generation (RAG) system that can be used as a template for the projects. It is built in LangChain and LangGraph with Chroma and OpenAI support.
 
 ![](/files/ui.png)
 
@@ -34,7 +34,7 @@ uv sync
 ```bash
 #Windows
 .\.venv\Scripts\activate
-# execute this in root of the project
+# execute this in the root of the project
 streamlit run .\src\Welcome.py
 ```
 
